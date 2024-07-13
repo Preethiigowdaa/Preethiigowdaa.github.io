@@ -1,4 +1,3 @@
-// Modal functionality
 const modal = document.getElementById("contact-form-modal");
 const btn = document.getElementById("contact-form-link");
 const span = document.getElementsByClassName("close")[0];
