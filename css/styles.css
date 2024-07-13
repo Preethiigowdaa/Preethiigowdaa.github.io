@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('img/background.png') no-repeat center center fixed;
+    background: url('../img/background.png') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
@@ -55,7 +55,9 @@ nav ul li a {
     font-size: 1.2rem;
     transition: color 0.3s;
 }
-
+.item{
+    padding-left: 2rem !important   ;
+}
 nav ul li a:hover {
     color: #ffd700;
 }
@@ -91,6 +93,11 @@ section#projects ul {
 section#projects li {
     margin: 1rem 0;
     animation: fade-in 2s forwards;
+}
+
+section#projects ul li ul {
+    margin-top: 0.5rem;
+    padding-left: 20px;
 }
 
 section#contact {
@@ -165,6 +172,41 @@ form {
 form label {
     margin: 0.5rem 0;
 }
+.catchphrases {
+    font-size: 1.1rem;
+    color: #555; /* A softer color for contrast */
+    margin-top: 0.5rem;
+}
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.footer-container p {
+    margin: 0.5rem 0;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons .icon {
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size as needed */
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
 
 form input,
 form textarea {

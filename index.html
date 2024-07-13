@@ -3,59 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preethi L - Web Application Developer</title>
+    <title>Preethi Gowda - Web Application Developer</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Preethi L</h1>
+            <h1>Preethi Gowda</h1>
             <p>Web Application Developer</p>
+            <p class="catchphrases">Learner | Innovator | Problem Solver</p>
+            <p class="catchphrases">Passionate about crafting seamless web experiences</p>
         </div>
     </header>
-    <nav>
+    <nav style="background-color: #21202066;">
         <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#awards">Awards</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <img src="img/profile.jpg" alt="Profile Picture" class="profile-img">
-            <p>As a dedicated Web Application Developer, I am on a journey to master the art of creating seamless online experiences. My toolkit includes HTML, CSS, JavaScript, Angular, C#, and .NET.</p>
-            <p>I am driven by the little "aha" moments—those times when a tricky bug finally makes sense or when a project comes together just right. I approach problems from diverse angles, seeing every hurdle as a chance to learn and grow.</p>
-            <p>Currently, I am gaining hands-on experience at Datazymes, where I have contributed to multiple projects, ensuring high-quality and reliable solutions.</p>
-            <p>When I'm not crafting code, you'll find me exploring new technologies, learning from the community, and probably sipping too much coffee.</p>
+            <div class="about-content">
+                <img src="img/profile.jpg" alt="Profile Picture" class="profile-img">
+                <div class="about-description item">
+                    <p>As a dedicated Web Application Developer, I am on a journey to master the art of creating seamless online experiences. My toolkit includes HTML, CSS, JavaScript, Angular, C#, and .NET.</p>
+                    <p>I am driven by the little "aha" moments—those times when a tricky bug finally makes sense or when a project comes together just right. I approach problems from diverse angles, seeing every hurdle as a chance to learn and grow.</p>
+                    <p>Currently, I am gaining hands-on experience at Datazymes, where I have contributed to multiple projects, ensuring high-quality and reliable solutions.</p>
+                    <p>When I'm not crafting code, you'll find me exploring new technologies, learning from the community, and probably sipping too much coffee.</p>
+                </div>
+            </div>
         </div>
     </section>
+    
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
-            <ul>
+            <ul class="item">
                 <li>
                     <h3>Project M4 - Angular</h3>
-                    <p>Developed dynamic front-end interfaces using Angular, Node.js, and Express, creating RESTful APIs and leveraging libraries like Highcharts.</p>
+                    <p>Key Contributions:</p>
+                    <ul>
+                        <li>Developed dynamic front-end interfaces using Angular, Node.js, and Express, creating RESTful APIs and leveraging libraries like Highcharts for data visualization.</li>
+                        <li>Integrated Google Cloud Storage for efficient file management.</li>
+                        <li>Implemented a chatbot feature using external bot API to enhance user interaction.</li>
+                    </ul>
                 </li>
                 <li>
                     <h3>Intellia Project - .NET</h3>
-                    <p>Contributed to the development of Intellia, utilizing .NET technologies to architect RESTful APIs in C# for seamless data retrieval.</p>
+                    <p>Key Contributions:</p>
+                    <ul>
+                        <li>Contributed to the development of Intellia, utilizing .NET technologies to architect RESTful APIs in C# for seamless data retrieval from SSMS databases.</li>
+                        <li>Created a feature-rich interface using HTML, CSS, Vue.js, and Bootstrap.</li>
+                        <li>Ensured secure storage and retrieval processes through Google Cloud Storage integration.</li>
+                    </ul>
                 </li>
             </ul>
         </div>
     </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="item">
+            <p><strong>Programming Languages:</strong> C#, SQL, Node.js, HTML, CSS, JavaScript, Angular</p>
+            <p><strong>Databases:</strong> MS SQL Server, PostgreSQL</p>
+            <p><strong>Tools & Technologies:</strong> ASP.NET MVC, Microsoft .NET Framework, Visual Studio Code, GitHub, Jira, GCP</p>
+            <p><strong>Soft Skills:</strong> Communication, Teamwork, Adaptability, Problem-solving, Leadership, Time Management</p>
+            <p><strong>Certifications (In Progress):</strong> Udemy AWS Certified Developer Associate</p>
+        </div>
+        </div>
+    </section>
+    
+    <section id="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="experience-item item">
+                <h3>Web Application Developer</h3>
+                <p>Feb 2023 - Present</p>
+                <p>DataZymes, Bengaluru</p>
+                <ul>
+                    <li>Contributed to multiple projects ensuring high-quality and reliable solutions.</li>
+                    <li>Integrated GCP into projects, addressing issues and requirements changes.</li>
+                    <li>Developed entire Library module for Intellia.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <div class="education-item item">
+            <h3>Bachelor of Engineering – Information Science and Engineering</h3>
+            <p>Acharya Institute of Technology, 2019 – 2023</p>
+            <p>CGPA: 8.7</p>
+        </div>
+        <div class="education-item item">
+            <h3>Pre-University</h3>
+            <p>Christ Junior College, 2017 – 2019</p>
+            <p>Percentage: 92%</p>
+        </div>
+        <div class="education-item item">
+            <h3>SSLC</h3>
+            <p>Vivekananda International School</p>
+            <p>Percentage: 98%</p>
+        </div>
+    </div>
+</section>
+
+    <section id="awards">
+        <div class="container">
+            <h2>Recognition and Awards</h2>
+            <ul class="item" >
+                <li><strong>Outstanding Performance Award:</strong> Received commendations for delivering high-quality results on client projects.</li>
+                <li><strong>Innovation Award:</strong> Recognized for innovative feature development and enhancing user experience.</li>
+                <li><strong>Excellence in Project Execution:</strong> Client appreciation for excellence in project execution and teamwork.</li>
+            </ul>
+        </div>
+    </section>
+    
     <section id="contact">
         <div class="container">
             <h2>Contact</h2>
             <div class="contact-icons">
-                <a href="mailto:preethipreethu211@gmail.com" class="icon"><img src="img/email-icon.png" alt="Email"></a>
-                <a href="https://www.linkedin.com/in/preethi-gowda-3943561a6/" class="icon"><img src="img/linkedin-icon.png" alt="LinkedIn"></a>
-                <a href="#" id="contact-form-link" class="icon"><img src="img/contactform-icon.jpg" alt="Contact Form"></a>
+                <a href="mailto:preethipreethu211@gmail.com?subject=Hello%20Preethi&body=Hi%20Preethi,%0D%0A" class="icon">
+                    <img src="img/email-icon.png" alt="Email">
+                </a>
+                <a href="https://www.linkedin.com/in/preethi-gowda-3943561a6/" class="icon">
+                    <img src="img/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="#" id="contact-form-link" class="icon">
+                    <img src="img/contactform-icon.jpg" alt="Contact Form">
+                </a>
             </div>
         </div>
     </section>
+
     <div id="contact-form-modal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -72,9 +163,26 @@
             </form>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 Preethi L</p>
+
+    <footer style="background-color: #0a0a0acf;">
+        <div class="footer-container">
+            <p>&copy; 2024 Preethi Gowda</p>
+            <p>Bengaluru, India</p>
+            <p>Contact: <a href="tel:+919663913658">9663913658</a></p>
+            <div class="social-icons">
+                <a href="mailto:preethipreethu211@gmail.com" class="icon" title="Email">
+                    <img src="img/email-icon.png" alt="Email">
+                </a>
+                <a href="https://www.linkedin.com/in/preethi-gowda-3943561a6/" class="icon" title="LinkedIn">
+                    <img src="img/linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/_preeethiiii_/" class="icon" title="Instagram">
+                    <img src="img/insta.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
     </footer>
+
     <script src="js/scripts.js"></script>
 </body>
 </html>
